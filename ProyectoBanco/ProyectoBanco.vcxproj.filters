@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{21ad9315-fa85-41a3-b539-239bce04a747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Componentes">
+      <UniqueIdentifier>{76a3d98d-d787-47c2-98ec-295696334167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Usuarios">
+      <UniqueIdentifier>{1efcaf25-d5a7-4cb6-ad2b-c8a40d7d7c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Estructuras">
+      <UniqueIdentifier>{9b358845-9d00-4d7a-927a-f3a72b93814e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entidades">
+      <UniqueIdentifier>{718d466b-070a-4434-858e-5a34ec46936e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Administradores">
+      <UniqueIdentifier>{54a8a44e-b88a-44cb-ab2b-d176b06c01d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Format.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IDebugable.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IFileable.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IInteractive.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IRandomizable.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ISavable.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IShowable.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Fecha.h">
+      <Filter>Componentes</Filter>
+    </ClInclude>
+    <ClInclude Include="Monto.h">
+      <Filter>Componentes</Filter>
+    </ClInclude>
+    <ClInclude Include="Identidad.h">
+      <Filter>Componentes</Filter>
+    </ClInclude>
+    <ClInclude Include="Contacto.h">
+      <Filter>Componentes</Filter>
+    </ClInclude>
+    <ClInclude Include="SNode.h">
+      <Filter>Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="SStack.h">
+      <Filter>Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="SQueue.h">
+      <Filter>Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="SList.h">
+      <Filter>Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="Tarjeta.h">
+      <Filter>Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="Transaccion.h">
+      <Filter>Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="Cuenta.h">
+      <Filter>Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="BNode.h">
+      <Filter>Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTree.h">
+      <Filter>Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="Queja.h">
+      <Filter>Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="MQuejas.h">
+      <Filter>Administradores</Filter>
+    </ClInclude>
+    <ClInclude Include="Cliente.h">
+      <Filter>Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="UCliente.h">
+      <Filter>Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="HashEntity.h">
+      <Filter>Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable.h">
+      <Filter>Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="Usuario.h">
+      <Filter>Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="Administrador.h">
+      <Filter>Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="MGeneral.h">
+      <Filter>Administradores</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
